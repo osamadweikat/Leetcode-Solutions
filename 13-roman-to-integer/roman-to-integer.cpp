@@ -17,7 +17,6 @@ public:
                 total += current;
             }
         }
-
         return total;
     }
 };
