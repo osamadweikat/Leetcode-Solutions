@@ -15,7 +15,6 @@ public:
                 case 'D': curr = 500; break;
                 case 'M': curr = 1000; break;
             }
-
             if (curr < prev)
                 total -= curr;
             else
