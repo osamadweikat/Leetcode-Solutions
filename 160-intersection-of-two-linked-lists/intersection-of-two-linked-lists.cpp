@@ -25,8 +25,9 @@ public:
 			else{
 				b = b -> next;
 			}
+            
 		}
-        
+
 		return a;
 	}
 };
