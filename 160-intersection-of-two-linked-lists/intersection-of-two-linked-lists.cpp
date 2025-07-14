@@ -13,6 +13,7 @@ public:
         ListNode *a = headA;
 		ListNode *b = headB;
 		while(a != b){
+            
 			if(a == NULL){
 				a = headB;
 			}
@@ -25,7 +26,7 @@ public:
 			else{
 				b = b -> next;
 			}
-            
+
 		}
 
 		return a;
