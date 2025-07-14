@@ -11,7 +11,6 @@
  */
 class Solution {
 public:
-
     int checkHeight(TreeNode* node) {
         if (!node) return 0;
 
