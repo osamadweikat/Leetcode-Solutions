@@ -18,7 +18,9 @@ public:
             a = (a == nullptr) ? headB : a->next;
             b = (b == nullptr) ? headA : b->next;
         }
+
         
+
         return a;
     }
 };
