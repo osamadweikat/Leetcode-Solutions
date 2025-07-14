@@ -10,6 +10,7 @@ public:
             profit = max(profit, prices[i] - minPrice);
             minPrice = min(minPrice, prices[i]);
         }
+        
         return profit;
     }
 };
