@@ -13,7 +13,6 @@ public:
 
         ListNode* a = headA;
         ListNode* b = headB;
-
         while (a != b) {
             a = (a == nullptr) ? headB : a->next;
             b = (b == nullptr) ? headA : b->next;
