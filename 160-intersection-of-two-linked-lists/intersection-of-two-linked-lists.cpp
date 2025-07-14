@@ -26,7 +26,6 @@ public:
 				b = b -> next;
 			}
 		}
-
 		return a;
 	}
 };
