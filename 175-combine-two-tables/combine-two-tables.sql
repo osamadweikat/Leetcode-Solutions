@@ -1,6 +1,5 @@
 SELECT 
-  firstName, 
-  lastName, city, state
+  firstName, lastName, city, state
 FROM 
   Person
 LEFT JOIN 
