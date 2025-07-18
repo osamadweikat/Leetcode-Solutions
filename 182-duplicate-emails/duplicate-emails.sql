@@ -1,2 +1,3 @@
 SELECT Email 
-FROM Person GROUP BY Email HAVING COUNT(Email) > 1;
+FROM Person 
+GROUP BY Email HAVING COUNT(Email) > 1;
