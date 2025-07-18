@@ -1,4 +1,6 @@
-SELECT name AS Customers
-FROM Customers 
-WHERE id NOT IN (SELECT customerId FROM Orders);
+SELECT Name AS Customers
+FROM CUSTOMERS
+LEFT JOIN ORDERS
+ON ORDERS.CustomerID = Customers.Id
+WHERE Orders.CustomerID IS NULL
 
