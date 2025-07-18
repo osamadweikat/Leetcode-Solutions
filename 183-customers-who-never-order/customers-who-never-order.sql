@@ -4,6 +4,6 @@ FROM Customers WHERE Id
 Not In 
     (
 	  SELECT 
-	        customerId 
+	    customerId 
 	  FROM Orders
 	 )
