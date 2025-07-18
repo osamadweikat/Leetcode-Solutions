@@ -2,6 +2,5 @@ select
      name AS Customers 
 FROM Customers WHERE Id
 Not In 
-    (SELECT 
-	    customerId 
+    (SELECT customerId 
 	  FROM Orders)
