@@ -7,6 +7,7 @@ public:
                 return true;
             lastIndex[nums[i]] = i;
         }
+        
         return false;
     }
 };
