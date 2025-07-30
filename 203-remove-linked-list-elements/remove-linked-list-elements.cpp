@@ -17,8 +17,7 @@ public:
             delete temp;
         }
 
-        ListNode* p = head;
-        while (p != nullptr && p->next != nullptr) {
+        for (ListNode* p = head; p != nullptr && p->next != nullptr; ) {
             if (p->next->val == val) {
                 ListNode* temp = p->next;
                 p->next = p->next->next;
